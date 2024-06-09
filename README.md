@@ -11,8 +11,8 @@ Die Daten werden anschließend im Notebook `data_preperation` weiterverarbeitet,
 
 ## Training und Tuning
 Das Training und Tuning der Modelle erfolgt in vier unterschiedlichen Notebooks. Dabei wird zwei mal das selbe neuronale Netzwerk mit zwei unterschiedlichen Tunern optimiert und ein weiteres Modell mit einem Random Forest trainiert. Dabei wird für beide neuronale Netzwerke die Batch Size so optimiert, dass der Validierungsverlust möglichst gering ausfällt. Die Notebooks sind wie folgt benannt:
-- `train_keras_tuning.ipynb`: Neuronales Netzwerk mit Keras Tuner optimiert
-- `wandb_tuning.ipynb`: Neuronales Netzwerk mit Weights and Biases optimiert
+- `train_keras_tuning.ipynb`: Neuronales Netzwerk mit [Keras Tuner](https://keras.io/keras_tuner/) optimiert
+- `wandb_tuning.ipynb`: Neuronales Netzwerk mit [Weights and Biases Sweeps](https://docs.wandb.ai/guides/sweeps) optimiert
 - `train_wandb_tuned.ipynb`: Das in `wandb_tuning.ipynb` optimierte Modell wird trainiert
 - `train_random_forest.ipynb`: Random Forest Modell
 
