@@ -1,7 +1,7 @@
 # Machine Learning Projekt - Lorenz Krause (1840200)
 
 ## Daten
-Die entscheidung viel darauf die Datenbeschaffung und die Verarbeitung in zwei Notebooks zu separieren, um zu vermeiden, dass die Daten bei mehrfacher Ausführung des Notebooks erneut heruntergeladen werden müssen.
+Die entscheidung fiel darauf die Datenbeschaffung und die Verarbeitung in zwei Notebooks zu separieren, um zu vermeiden, dass die Daten bei mehrfacher Ausführung des Notebooks erneut heruntergeladen werden müssen.
 
 ### Datenbeschaffung
 Die im Rahmen dieses Projekts verwendeten Daten werden von Kaggle heruntergeladen. Dazu wird ein Kaggle Account mit einem API Roken benötigt. Dieser Token kann wie [hier](https://www.kaggle.com/docs/api) zu sehen erstellt werden. Der Download der Daten erfolgt über das Notebook `data_download.ipynb`.
